@@ -7,7 +7,7 @@ function Logout() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        role: localStorage.getItem('role') // No email sent
+        role: localStorage.getItem('role') 
       })
     });
 
